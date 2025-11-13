@@ -1,4 +1,5 @@
 import { Code } from 'lucide-react';
+import { motion } from 'framer-motion';
 import { skills, techLogos } from '@/data/constants';
 
 const SkillsSection = ({ darkMode }) => {

@@ -1,4 +1,5 @@
 import { ExternalLink } from 'lucide-react';
+import { motion } from 'framer-motion';
 
 const codingProfiles = [
   {

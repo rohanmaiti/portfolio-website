@@ -1,4 +1,5 @@
 import { Mail, Phone, Github, Linkedin } from 'lucide-react';
+import { motion } from 'framer-motion';
 
 const ContactSection = ({ darkMode }) => {
   return (

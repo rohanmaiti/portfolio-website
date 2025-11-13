@@ -1,4 +1,5 @@
 import { Briefcase, ChevronLeft, ChevronRight } from 'lucide-react';
+import { motion } from 'framer-motion';
 import { experiences, certifications } from '@/data/constants';
 
 const ExperienceSection = ({ darkMode, experienceScrollRef, scrollExperience }) => {

@@ -1,4 +1,5 @@
 import { GraduationCap } from 'lucide-react';
+import { motion } from 'framer-motion';
 import AboutCard from './AboutCard';
 import CodingProfiles from './CodingProfiles';
 import Hobbies from './Hobbies';

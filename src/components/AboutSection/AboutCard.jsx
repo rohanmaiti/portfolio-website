@@ -1,4 +1,5 @@
 import { Code, Award } from 'lucide-react';
+import { motion } from 'framer-motion';
 
 const AboutCard = ({ darkMode, achievements }) => {
   return (

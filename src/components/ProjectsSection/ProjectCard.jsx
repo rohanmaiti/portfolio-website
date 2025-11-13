@@ -1,4 +1,5 @@
 import { Github, ExternalLink } from 'lucide-react';
+import { motion } from 'framer-motion';
 
 const ProjectCard = ({ project, idx, darkMode }) => {
   return (

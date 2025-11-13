@@ -1,4 +1,5 @@
 import { Filter } from 'lucide-react';
+import { motion } from 'framer-motion';
 import ProjectCard from './ProjectCard';
 import ScrollIndicator from '../ScrollIndicator';
 

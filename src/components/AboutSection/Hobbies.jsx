@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion';
 
 const hobbies = [
   { icon: '✈️', hobby: 'Travelling', desc: 'Exploring new places' },
