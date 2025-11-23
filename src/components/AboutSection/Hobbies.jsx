@@ -12,7 +12,7 @@ const Hobbies = ({ darkMode }) => {
   return (
     <motion.div
       className={`p-6 rounded-2xl shadow-xl ${
-        darkMode ? 'bg-gradient-to-br from-purple-900/30 to-pink-900/30 border border-purple-700/50' : 'bg-gradient-to-br from-purple-50 to-pink-50 border border-purple-200'
+        darkMode ? 'bg-slate-800 border border-slate-700' : 'bg-white border border-gray-200'
       }`}
       initial={{ opacity: 0, y: -20 }}
       whileInView={{ opacity: 1, y: 0 }}

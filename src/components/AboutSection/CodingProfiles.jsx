@@ -32,7 +32,7 @@ const CodingProfiles = ({ darkMode }) => {
   return (
     <motion.div
       className={`p-6 rounded-2xl shadow-xl ${
-        darkMode ? 'bg-gradient-to-br from-yellow-900/30 to-orange-900/30 border border-yellow-700/50' : 'bg-gradient-to-br from-yellow-50 to-orange-50 border border-yellow-200'
+        darkMode ? 'bg-slate-800 border border-slate-700' : 'bg-white border border-gray-200'
       }`}
       initial={{ opacity: 0, y: -20 }}
       whileInView={{ opacity: 1, y: 0 }}
