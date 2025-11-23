@@ -25,19 +25,7 @@ const codingProfiles = [
     textLight: 'text-green-700',
     iconDark: 'text-green-400',
     iconLight: 'text-green-600'
-  },
-  {
-    name: 'Codeforces',
-    url: 'https://codeforces.com/profile/rohanmaiti',
-    logo: 'https://cdn.iconscout.com/icon/free/png-256/free-code-forces-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-vol-2-pack-logos-icons-3029920.png?f=webp&w=256',
-    stats: 'Competitive Coder',
-    bgDark: 'bg-blue-500/20 hover:bg-blue-500/30',
-    bgLight: 'bg-blue-100 hover:bg-blue-200',
-    textDark: 'text-blue-300',
-    textLight: 'text-blue-700',
-    iconDark: 'text-blue-400',
-    iconLight: 'text-blue-600'
-  }
+  }, 
 ];
 
 const CodingProfiles = ({ darkMode }) => {
